@@ -1,0 +1,22 @@
+{
+  "name": "playwright-ui-tests",
+  "version": "1.0.0",
+  "description": "End-to-end UI automation using **Playwright** and **TypeScript**, structured with the **Page Object Model** pattern.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardK1026/playwright-ui-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichardK1026/playwright-ui-tests/issues"
+  },
+  "homepage": "https://github.com/RichardK1026/playwright-ui-tests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0"
+  }
+}
