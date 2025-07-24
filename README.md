@@ -4,7 +4,7 @@ End-to-end UI automation using **Playwright** and **TypeScript**, structured wit
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This project demonstrates my ability to:
 
