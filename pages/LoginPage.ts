@@ -1,9 +1,5 @@
 import { Page } from '@playwright/test';
 
-/**
- * This class goes to appropriate website, allows filling in 
- * username & password, then clicks login
- */
 export class LoginPage 
 {
     readonly page: Page;
