@@ -14,7 +14,7 @@ test.describe('Login Tests', () =>
         
         // Should be in inventory page after login 
         await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
-    })
+    });
 
     test('Invalid login gives error', async ({page}) => 
     {
@@ -26,9 +26,9 @@ test.describe('Login Tests', () =>
         await login.login('wrong_username', 'wrong_password');
         
         // Should give error message with specified message
-        await expect(login.errorMessage).toBeVisible()
+        await expect(login.errorMessage).toBeVisible();
         await expect(login.errorMessage).toHaveText(
             "Epic sadface: Username and password do not match any user in this service"
         );
-    })
-})
+    });
+});
