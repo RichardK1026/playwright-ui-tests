@@ -6,22 +6,22 @@ This project is a UI test automation suite built with **Playwright** and **TypeS
 
 ## Features Covered
 
-- **Login page**
-- Valid login redirects to the inventory page
-- Invalid login displays proper error messages
+### **Login page**
+- Valid login redirects to the inventory page  
+- Invalid login displays proper error messages  
 
-- **Inventory page**
-- Adding an item to the cart updates the badge
-- Removing an item updates the badge
+### **Inventory page**
+- Adding an item to the cart updates the badge  
+- Removing an item updates the badge  
 
-- **Checkout process**
-- Filling in user information
-- Completing the checkout process
-- Verifying the success message
+### **Checkout process**
+- Filling in user information  
+- Completing the checkout process  
+- Verifying the success message  
 
-- **Uses Playwright test runner with:**
-- Page Object Model for reusable components
-- Built-in HTML reports and trace debugging
+### **Uses Playwright test runner with:**
+- Page Object Model for reusable components  
+- Built-in HTML reports and trace debugging  
 
 ---
 
@@ -34,18 +34,17 @@ This project is a UI test automation suite built with **Playwright** and **TypeS
 
 ---
 
-## Folder structure
+```text
 playwright-ui-tests/
-│
 ├── pages/
 │   ├── LoginPage.ts
 │   ├── InventoryPage.ts
-│   ├── CheckoutPage.ts
+│   └── CheckoutPage.ts
 │
 ├── tests/
 │   ├── login.spec.ts
 │   ├── inventory.spec.ts
-│   ├── checkout.spec.ts
+│   └── checkout.spec.ts
 │
 ├── CartProcess.ts
 ├── playwright.config.ts
@@ -54,7 +53,7 @@ playwright-ui-tests/
 
 --- 
 
-## Running the tests
+## How to run
 
 Install dependencies:
 ```bash
