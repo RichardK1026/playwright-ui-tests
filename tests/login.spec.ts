@@ -31,4 +31,18 @@ test.describe('Login Tests', () =>
             "Epic sadface: Username and password do not match any user in this service"
         );
     });
+
+    test('Empty login fields show error', async ({ page }) => 
+    {
+        const login = new LoginPage(page);
+
+        await login.gotoLoginPage();
+        await login.login('', '');
+
+        await expect(login.errorMessage).toBeVisible();
+        await expect(login.errorMessage).toHaveText(
+            'Epic sadface: Username is required'
+        );
+});
+
 });
