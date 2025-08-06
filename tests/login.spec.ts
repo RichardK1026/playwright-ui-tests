@@ -43,6 +43,5 @@ test.describe('Login Tests', () =>
         await expect(login.errorMessage).toHaveText(
             'Epic sadface: Username is required'
         );
-});
-
+    });
 });
