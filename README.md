@@ -33,7 +33,7 @@ This project is a UI test automation suite built with **Playwright** and **TypeS
 - Page Object Model
 
 ---
-
+## Folder structure
 ```text
 playwright-ui-tests/
 ├── pages/
@@ -50,21 +50,28 @@ playwright-ui-tests/
 ├── playwright.config.ts
 ├── package.json
 └── README.md
-
+```
 --- 
 
 ## How to run
 
-Install dependencies:
+### Install dependencies:
 ```bash
 npm install
 npx playwright install
+```
 
-Run all tests:
+### Run all tests:
+```bash
 npx playwright test
+```
 
-Run a specific test file:
+### Run a specific test file:
+```bash
 npx playwright test tests/login.spec.ts
+```
 
-View an HTML report:
+### View an HTML report:
+```bash
 npx playwright show-report
+```
